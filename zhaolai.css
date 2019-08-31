@@ -4,7 +4,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, pre, a, img, ul, li{
 	border: 0;
 }
 html{
-	font-size: 1px;
+	font-size: 75px;
 }
 ul {
 list-style: none;
@@ -21,6 +21,9 @@ a{
 .white{
 	background: #FFFFFF;
 }
+.gray{
+	background: #F3F5F7;
+}
 .l{
 	float: left;
 }
@@ -33,40 +36,40 @@ img{
 /*顶部*/
 .header{
 	background: #FFFFFF;
-	width: 750rem;
+	width: 10rem/* 750px */;
 	margin: 0 auto;
 	overflow: hidden;
 }
 .nav .img{
 	float: left;
-	width: 157.9rem;
-	height: 38rem;
-	margin: 28rem 21.9rem 22rem 20rem;
+	width: 2.10533333rem/* 157.9px */;
+	height: .50666667rem/* 38px */;
+	margin: .37333333rem/* 28px */ .292rem/* 21.9px */ .29333333rem/* 22px */ .26666667rem/* 20px */;
 }
 .nav ul{
 	float: left;
 	display: flex;
 	justify-content: space-between;
-	width: 504rem;
-	margin-top: 19rem;
+	width: 6.72rem/* 504px */;
+	margin-top: .25333333rem/* 19px */;
 }
 .nav li a{
 	display: block;
-	line-height: 50rem;
+	line-height: .66666667rem/* 50px */;
 	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
-	font-size: 36rem;
+	font-size: .48rem/* 36px */;
 	color: rgba(0,0,0,0.85);
 }
-.header>.img{
-	height: 800rem;
-	width: 1920rem;
+.header>img{
+	height: 10.66666667rem/* 800px */;
+	width: 25.6rem/* 1920px */;
 	position: relative;
 	left: 50%;
-	margin-left: -960rem;
+	margin-left: -12.8rem/* 960px */;
 }
 /*主要内容*/
 .main{
-	width: 750rem;
+	width: 10rem/* 750px */;
 	margin: 0 auto;
 }
 /*PHP概况及就业前景*/
@@ -74,202 +77,202 @@ img{
 	text-align: center;
 }
 .part1>h1{
-	margin-top: 50rem;
+	margin-top: .66666667rem/* 50px */;
 	font-family: PingFangSC-Medium, Microsoft YaHei, Arial;
-	font-size: 48rem;
+	font-size: .64rem/* 48px */;
 	color: #30363E;
-	line-height: 67rem;
+	line-height: .89333333rem/* 67px */;
 }
 .part1>p{
-	margin-top: 2rem;
+	margin-top: .02666667rem/* 2px */;
 	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
-	font-size: 28rem;
+	font-size: .37333333rem/* 28px */;
 	color: #4D555D;
-	line-height: 40rem;
+	line-height: .53333333rem/* 40px */;
 }
 .part1-1>h2{
 	font-family: PingFangSC-Medium, Microsoft YaHei, Arial;
-	font-size: 32rem;
+	font-size: .42666667rem/* 32px */;
 	color: #30363E;
-	line-height: 45rem;
+	line-height: .6rem/* 45px */;
 }
 .blue{
 	background: #00B1B1;
-	height: 8rem;
-	width: 160rem;
-	margin: 4rem auto 61rem auto;
+	height: .10666667rem/* 8px */;
+	width: 2.13333333rem/* 160px */;
+	margin: .05333333rem/* 4px */ auto .81333333rem/* 61px */ auto;
 }
 .part1-1>.img{
 	margin: 0 auto;
 }
 .part1-1>p{
 	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
-	font-size: 28rem;
+	font-size: .37333333rem/* 28px */;
 	color: #4D555D;
-	line-height: 48rem;
-	width: 670rem;
-	margin: 29.9rem auto 0 auto;
+	line-height: .64rem/* 48px */;
+	width: 8.93333333rem/* 670px */;
+	margin: .39866667rem/* 29.9px */ auto 0 auto;
 	text-align: left;
     word-wrap: break-word;
     word-break: normal;
 }
 /*PHP的特点*/
 .part1-1-1{
-	margin-top: 49rem;
+	margin-top: .65333333rem/* 49px */;
 }
 .part1-1-1 .img{
-	width: 580rem;
-	height: 543.1rem;
+	width: 7.73333333rem/* 580px */;
+	height: 7.24133333rem/* 543.1px */;
 }
 /*PHP的应用*/
 .part1-1-2{
-	margin-top: 61rem;
+	margin-top: .81333333rem/* 61px */;
 }
 .part1-1-2 .blue{
-	margin: 4rem auto 39rem auto;
+	margin: .05333333rem/* 4px */ auto .52rem/* 39px */ auto;
 }
 .part1-1-2 .img{
-	width: 520rem;
-	height: 404rem;
+	width: 6.93333333rem/* 520px */;
+	height: 5.38666667rem/* 404px */;
 }
 /*PHP的地位*/
 .part1-1-3{
-	margin-top: 57rem;
+	margin-top: .76rem/* 57px */;
 }
 .part1-2{
-	height: 160rem;
+	height: 2.13333333rem/* 160px */;
 	position: relative;
-	margin-bottom: 41rem;
+	margin-bottom: .54666667rem/* 41px */;
 }
 .left{
 	position: absolute;
-	left: 42rem;
-	width: 240rem;
+	left: .56rem/* 42px */;
+	width: 3.2rem/* 240px */;
 	bottom: 0;
 }
 .left div{
-	margin-bottom: 51.57rem;
-	margin-left: 5rem;
+	margin-bottom: .6876rem/* 51.57px */;
+	margin-left: .06666667rem/* 5px */;
 	width: 260rem;
-	border: 1px solid #979797;
+	border: .01333333rem/* 1px */ solid #979797;
 }
 .left p{
 	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
-	font-size: 24px;
+	font-size: .32rem/* 24px */;
 	color: #4D555D;
-	margin-bottom: 15.5rem;
-	line-height: 33rem;
+	margin-bottom: .20666667rem/* 15.5px */;
+	line-height: .44rem/* 33px */;
 	text-align: right;
 }
 .left h3{
-	margin-bottom: 1px;
+	margin-bottom: .01333333rem/* 1px */;
 	font-family: PingFangSC-Medium, Microsoft YaHei, Arial;
-	font-size: 32px;
+	font-size: .42666667rem/* 32px */;
 	color: #4D555D;
-	line-height: 45rem;
+	line-height: .6rem/* 45px */;
 	text-align: right;
 }
 .part1-2 .img{
-	height: 160rem;
-	width:160rem;
+	height: 2.13333333rem/* 160px */;
+	width:2.13333333rem/* 160px */;
 	margin: 0 auto;
 	position: relative;
 	z-index: 999;
 }
 .right{
 	position: absolute;
-	right: 24rem;
-	width: 265rem;
+	right: .32rem/* 24px */;
+	width: 3.53333333rem/* 265px */;
 	top: 0;
 }
 .right-top{
 	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
-	font-size: 32rem;
+	font-size: .42666667rem/* 32px */;
 	color: #4D555D;
-	line-height: 45rem;
-	height: 45rem;
+	line-height: .6rem/* 45px */;
+	height: .6rem/* 45px */;
 	text-align: right;
 }
 .right-top span{
 	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
-	font-size: 24rem;
+	font-size: .32rem/* 24px */;
 	color: #4D555D;
-	line-height: 35rem;
-	bottom: 3rem;
+	line-height: .46666667rem/* 35px */;
+	bottom: .04rem/* 3px */;
 	position: relative;
 }
 .right-top-right{
-	margin-left:10rem;
+	margin-left:.13333333rem/* 10px */;
 }
 .right-top-left{
-	margin-right:10rem;
+	margin-right:.13333333rem/* 10px */;
 }
 .right div{
-	width: 260rem;
-	border: 1rem solid #979797;
-	right: 24rem;
+	width: 3.46666667rem/* 260px */;
+	border: .01333333rem/* 1px */ solid #979797;
+	right: .32rem/* 24px */;
 	position: relative;
 }
 .right-bottom{
 	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
-	font-size: 24rem;
+	font-size: .32rem/* 24px */;
 	color: #4D555D;
-	line-height: 33rem;
+	line-height: .44rem/* 33px */;
 	text-align: left;
 }
 .part1-2-1 .right-top{
-	margin-right: 128rem;
+	margin-right: 1.70666667rem/* 128px */;
 }
 .part1-2-1 .right-bottom{
-	margin-right: 33rem;
+	margin-right: .44rem/* 33px */;
 }
 .part1-2-2 .right-top{
-	margin-right: 116rem;
+	margin-right: 1.54666667rem/* 116px */;
 }
 .part1-2-2 .right-bottom{
-	margin-right: 39rem;
+	margin-right: .52rem/* 39px */;
 }
 .part1-2-3 .right-top{
-	margin-right: 128rem;
+	margin-right: 1.70666667rem/* 128px */;
 }
 .part1-2-3 .right-bottom{
-	margin-right: 39rem;
+	margin-right: .52rem/* 39px */;
 }
 .part1-2-4 .right-top{
-	margin-right: 138rem;
+	margin-right: 1.84rem/* 138px */;
 }
 .part1-2-4 .right-bottom{
-	margin-right: 47rem;
+	margin-right: .62666667rem/* 47px */;
 }
 .part1-2-5 .right-top{
-	margin-right: 26.3rem;
+	margin-right: .35066667rem/* 26.3px */;
 }
 .part1-2-5 .right-bottom{
-	margin-right: 19rem;
+	margin-right: .25333333rem/* 19px */;
 }
 .part1-2-6 .right-top{
-	margin-right: 100rem;
+	margin-right: 1.33333333rem/* 100px */;
 }
 .part1-2-6 .right-bottom{
 	margin-right: 0;
 }
 .part1-2-6{
-	margin-bottom: 63rem!important;
+	margin-bottom: .84rem/* 63px */!important;
 }
 .btn{
 	margin: 0 auto;
-	width: 540rem;
+	width: 7.2rem/* 540px */;
 }
 .btn a{
 	display: block;
-	border: 1rem solid #009999;
-	border-radius: 36rem;
-	padding: 16rem 0;
+	border: .01333333rem/* 1px */ solid #009999;
+	border-radius: .48rem/* 36px */;
+	padding: .21333333rem/* 16px */ 0;
 	text-align: center;
 	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
-	font-size: 28rem;
-	line-height: 40rem;
-	width: 240rem;
+	font-size: .37333333rem/* 28px */;
+	line-height: .53333333rem/* 40px */;
+	width: 3.2rem/* 240px */;
 }
 .btn .l{
 	background: #009999;
@@ -280,36 +283,36 @@ img{
 }
 /*PHP学习最好的时代*/
 .part1-1-4{
-	margin-top: 55rem;
+	margin-top: .73333333rem/* 55px */;
 }
 .part1-1-4 .blue{
-	margin: 2rem auto 61rem auto;
+	margin: .02666667rem/* 2px */ auto .81333333rem/* 61px */ auto;
 }
 .part1-1-4 .img{
-	width: 304rem;
-	height: 304rem;
+	width: 4.05333333rem/* 304px */;
+	height: 4.05333333rem/* 304px */;
 }
 .part1-1-4 h5{
 	font-family: PingFangSC-Medium;
-	font-size: 28rem;
+	font-size: .37333333rem/* 28px */;
 	color: #4D555D;
 	text-align: center;
-	line-height: 56rem;
-	margin-top: 37rem;
+	line-height: .74666667rem/* 56px */;
+	margin-top: .49333333rem/* 37px */;
 }
 .part1-1-4 p{
-	margin-top: 12rem;
-	line-height: 56px;
+	margin-top: .16rem/* 12px */;
+	line-height: .74666667rem/* 56px */;
 }
 .part1-1-4 .img2{
-	margin-top: 33rem;
+	margin-top: .44rem/* 33px */;
 }
 .part1-1-4 .img3{
-	margin-top: 49rem;
+	margin-top: .65333333rem/* 49px */;
 }
 .part1-1-4 .img4{
-	margin-top: 47rem;
+	margin-top: .62666667rem/* 47px */;
 }
 .part1-1-4 .btn{
-	margin: 51rem auto 62rem auto;
+	margin: .68rem/* 51px */ auto .82666667rem/* 62px */ auto;
 }
