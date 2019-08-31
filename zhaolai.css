@@ -340,6 +340,9 @@ D;
 	margin-left: .13333333rem/* 10px */;
 	line-height: .6rem/* 45px */;
 }
+.part2-1-1 h2{
+	margin-top: .57333333rem/* 43px */;
+}
 .part2-1-1 p{
 	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
 	font-size: .37333333rem/* 28px */;
@@ -706,38 +709,4 @@ D;
 	justify-content: space-between;
 	margin-bottom: .53333333rem/* 40px */;
 	margin: 0 2.21333333rem/* 166px */;
-}
-/*底部*/
-.footer{
-	margin: -.10666667rem/* 8px */ auto 0 auto;
-	width: 10rem/* 750px */;
-	position: relative;
-	z-index: 999;
-}
-.footer a{
-	float: left;
-	display: block;
-	width: 5rem/* 375px */;
-	height: 1.30666667rem/* 98px */;
-}
-.footer a:first-child{
-	background: #009999;
-}
-.footer a:last-child{
-	background: #E3783D;
-}
-.footer a img{
-	float: left;
-	width: .64rem/* 48px */;
-	height: .64rem/* 48px */;
-	margin: .34666667rem/* 26px */.13333333rem/* 10px */.32rem/* 24px */1.10666667rem/* 83px */; 
-}
-.footer a span{
-	display: block;
-	float: left;
-	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
-	font-size: 42px;
-	color: #FFFFFF;
-	text-align: center;
-	margin-top: .26666667rem/* 20px */;
 }
