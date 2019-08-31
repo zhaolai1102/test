@@ -40,7 +40,7 @@ img{
 	margin: 0 auto;
 	overflow: hidden;
 }
-.nav .img{
+.nav img{
 	float: left;
 	width: 2.10533333rem/* 157.9px */;
 	height: .50666667rem/* 38px */;
@@ -76,19 +76,21 @@ img{
 .part1{
 	text-align: center;
 }
-.part1>h1{
-	margin-top: .66666667rem/* 50px */;
+.title h1{
 	font-family: PingFangSC-Medium, Microsoft YaHei, Arial;
 	font-size: .64rem/* 48px */;
 	color: #30363E;
 	line-height: .89333333rem/* 67px */;
 }
-.part1>p{
+.title p{
 	margin-top: .02666667rem/* 2px */;
 	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
 	font-size: .37333333rem/* 28px */;
 	color: #4D555D;
 	line-height: .53333333rem/* 40px */;
+}
+.part1 .title{
+	margin-top: .66666667rem/* 50px */;
 }
 .part1-1>h2{
 	font-family: PingFangSC-Medium, Microsoft YaHei, Arial;
@@ -102,7 +104,7 @@ img{
 	width: 2.13333333rem/* 160px */;
 	margin: .05333333rem/* 4px */ auto .81333333rem/* 61px */ auto;
 }
-.part1-1>.img{
+.part1-1>img{
 	margin: 0 auto;
 }
 .part1-1>p{
@@ -120,7 +122,7 @@ img{
 .part1-1-1{
 	margin-top: .65333333rem/* 49px */;
 }
-.part1-1-1 .img{
+.part1-1-1 img{
 	width: 7.73333333rem/* 580px */;
 	height: 7.24133333rem/* 543.1px */;
 }
@@ -131,7 +133,7 @@ img{
 .part1-1-2 .blue{
 	margin: .05333333rem/* 4px */ auto .52rem/* 39px */ auto;
 }
-.part1-1-2 .img{
+.part1-1-2 img{
 	width: 6.93333333rem/* 520px */;
 	height: 5.38666667rem/* 404px */;
 }
@@ -153,7 +155,7 @@ img{
 .left div{
 	margin-bottom: .6876rem/* 51.57px */;
 	margin-left: .06666667rem/* 5px */;
-	width: 260rem;
+	width: 3.46666667rem/* 260px */;
 	border: .01333333rem/* 1px */ solid #979797;
 }
 .left p{
@@ -172,7 +174,7 @@ img{
 	line-height: .6rem/* 45px */;
 	text-align: right;
 }
-.part1-2 .img{
+.part1-2 img{
 	height: 2.13333333rem/* 160px */;
 	width:2.13333333rem/* 160px */;
 	margin: 0 auto;
@@ -288,7 +290,7 @@ img{
 .part1-1-4 .blue{
 	margin: .02666667rem/* 2px */ auto .81333333rem/* 61px */ auto;
 }
-.part1-1-4 .img{
+.part1-1-4 img{
 	width: 4.05333333rem/* 304px */;
 	height: 4.05333333rem/* 304px */;
 }
@@ -316,3 +318,4 @@ img{
 .part1-1-4 .btn{
 	margin: .68rem/* 51px */ auto .82666667rem/* 62px */ auto;
 }
+/*就业薪资*/
