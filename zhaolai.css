@@ -28,7 +28,7 @@ a{
 	float: right;
 }
 img{
-	display: block;
+	width: 100%;
 }
 /*顶部*/
 .header{
@@ -37,7 +37,7 @@ img{
 	margin: 0 auto;
 	overflow: hidden;
 }
-.nav img{
+.nav .img{
 	float: left;
 	width: 157.9rem;
 	height: 38rem;
@@ -57,7 +57,7 @@ img{
 	font-size: 36rem;
 	color: rgba(0,0,0,0.85);
 }
-.header>img{
+.header>.img{
 	height: 800rem;
 	width: 1920rem;
 	position: relative;
@@ -101,7 +101,6 @@ img{
 }
 .part1-1>img{
 	margin: 0 auto;
-	display: block;
 }
 .part1-1>p{
 	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
@@ -111,6 +110,8 @@ img{
 	width: 670rem;
 	margin: 29.9rem auto 0 auto;
 	text-align: left;
+    word-wrap: break-word;
+    word-break: normal;
 }
 /*PHP的特点*/
 .part1-1-1{
@@ -172,7 +173,6 @@ img{
 	height: 160rem;
 	width:160rem;
 	margin: 0 auto;
-	display: block;
 	position: relative;
 	z-index: 999;
 }
@@ -266,7 +266,7 @@ img{
 	border-radius: 36rem;
 	padding: 16rem 0;
 	text-align: center;
-	font-family: PingFangSC-Regular;
+	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
 	font-size: 28rem;
 	line-height: 40rem;
 	width: 240rem;
@@ -279,3 +279,37 @@ img{
 	color: #009999;
 }
 /*PHP学习最好的时代*/
+.part1-1-4{
+	margin-top: 55rem;
+}
+.part1-1-4 .blue{
+	margin: 2rem auto 61rem auto;
+}
+.part1-1-4 img{
+	width: 304rem;
+	height: 304rem;
+}
+.part1-1-4 h5{
+	font-family: PingFangSC-Medium;
+	font-size: 28rem;
+	color: #4D555D;
+	text-align: center;
+	line-height: 56rem;
+	margin-top: 37rem;
+}
+.part1-1-4 p{
+	margin-top: 12rem;
+	line-height: 56px;
+}
+.part1-1-4 .img2{
+	margin-top: 33rem;
+}
+.part1-1-4 .img3{
+	margin-top: 49rem;
+}
+.part1-1-4 .img4{
+	margin-top: 47rem;
+}
+.part1-1-4 .btn{
+	margin-top: 51rem auto 62rem auto;
+}
