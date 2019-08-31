@@ -507,6 +507,10 @@ D;
 	float: left;
 	text-align: left;
 }
+.part3-content img{
+	width: .64rem/* 48px */;
+	height: .58666667rem/* 44px */;
+}
 .part3-content img:first-child{
 	position: relative;
 	bottom: .61333333rem/* 46px */;
