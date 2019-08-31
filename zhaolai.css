@@ -99,7 +99,7 @@ img{
 	width: 160rem;
 	margin: 4rem auto 61rem auto;
 }
-.part1-1>img{
+.part1-1>.img{
 	margin: 0 auto;
 }
 .part1-1>p{
@@ -117,7 +117,7 @@ img{
 .part1-1-1{
 	margin-top: 49rem;
 }
-.part1-1-1 img{
+.part1-1-1 .img{
 	width: 580rem;
 	height: 543.1rem;
 }
@@ -128,7 +128,7 @@ img{
 .part1-1-2 .blue{
 	margin: 4rem auto 39rem auto;
 }
-.part1-1-2 img{
+.part1-1-2 .img{
 	width: 520rem;
 	height: 404rem;
 }
@@ -169,7 +169,7 @@ img{
 	line-height: 45rem;
 	text-align: right;
 }
-.part1-2 img{
+.part1-2 .img{
 	height: 160rem;
 	width:160rem;
 	margin: 0 auto;
@@ -285,7 +285,7 @@ img{
 .part1-1-4 .blue{
 	margin: 2rem auto 61rem auto;
 }
-.part1-1-4 img{
+.part1-1-4 .img{
 	width: 304rem;
 	height: 304rem;
 }
@@ -311,5 +311,5 @@ img{
 	margin-top: 47rem;
 }
 .part1-1-4 .btn{
-	margin-top: 51rem auto 62rem auto;
+	margin: 51rem auto 62rem auto;
 }
