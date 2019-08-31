@@ -1,0 +1,251 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, pre, a, img, ul, li{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+html{
+	font-size: 1px;
+}
+ul {
+list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.clear:after{
+	display: block;
+	content: '';
+	clear: both;
+	height: 0;
+}
+.white{
+	background: #FFFFFF;
+}
+
+
+/*顶部*/
+.header{
+	background: #FFFFFF;
+	width: 750rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.nav img{
+	float: left;
+	width: 157.9rem;
+	height: 38rem;
+	margin: 28rem 21.9rem 22rem 20rem;
+}
+.nav ul{
+	float: left;
+	display: flex;
+	justify-content: space-between;
+	width: 504rem;
+	margin-top: 19rem;
+}
+.nav li a{
+	display: block;
+	line-height: 50rem;
+	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
+	font-size: 36rem;
+	color: rgba(0,0,0,0.85);
+}
+.header>img{
+	height: 800rem;
+	width: 1920rem;
+	position: relative;
+	left: 50%;
+	margin-left: -960rem;
+}
+/*主要内容*/
+.main{
+	width: 750rem;
+	margin: 0 auto;
+}
+/*第一部分*/
+.part1{
+	text-align: center;
+}
+.part1>h1{
+	margin-top: 50rem;
+	font-family: PingFangSC-Medium, Microsoft YaHei, Arial;
+	font-size: 48rem;
+	color: #30363E;
+	line-height: 67rem;
+}
+.part1>p{
+	margin-top: 2rem;
+	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
+	font-size: 28rem;
+	color: #4D555D;
+	line-height: 40rem;
+}
+.part1-1>h2{
+	font-family: PingFangSC-Medium, Microsoft YaHei, Arial;
+	font-size: 32rem;
+	color: #30363E;
+	line-height: 45rem;
+}
+.blue{
+	background: #00B1B1;
+	height: 8rem;
+	width: 160rem;
+	margin: 4rem auto 61rem auto;
+}
+.part1-1>img{
+	margin: 0 auto;
+	display: block;
+}
+.part1-1>p{
+	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
+	font-size: 28rem;
+	color: #4D555D;
+	line-height: 48rem;
+	width: 670rem;
+	margin: 29.9rem auto 0 auto;
+	text-align: left;
+}
+/*part1-1-1*/
+.part1-1-1{
+	margin-top: 49rem;
+}
+.part1-1-1 img{
+	width: 580rem;
+	height: 543.1rem;
+}
+/*part1-1-2*/
+.part1-1-2{
+	margin-top: 61rem;
+}
+.part1-1-2 .blue{
+	margin: 4rem auto 39rem auto;
+}
+.part1-1-2 img{
+	width: 520rem;
+	height: 404rem;
+}
+/*part1-1-3*/
+.part1-1-3{
+	margin-top: 57rem;
+}
+.part1-2{
+	height: 160rem;
+	position: relative;
+	margin-bottom: 41rem;
+}
+.left{
+	position: absolute;
+	left: 42rem;
+	width: 240rem;
+	bottom: 0;
+}
+.left div{
+	margin-bottom: 51.57rem;
+	margin-left: 5rem;
+	width: 260rem;
+	border: 1px solid #979797;
+}
+.left p{
+	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
+	font-size: 24px;
+	color: #4D555D;
+	margin-bottom: 15.5rem;
+	line-height: 33rem;
+	text-align: right;
+}
+.left h3{
+	margin-bottom: 1px;
+	font-family: PingFangSC-Medium, Microsoft YaHei, Arial;
+	font-size: 32px;
+	color: #4D555D;
+	line-height: 45rem;
+	text-align: right;
+}
+.part1-2 img{
+	height: 160rem;
+	width:160rem;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	z-index: 999;
+}
+.right{
+	position: absolute;
+	right: 24rem;
+	width: 265rem;
+	top: 0;
+}
+.right-top{
+	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
+	font-size: 32rem;
+	color: #4D555D;
+	line-height: 45rem;
+	height: 45rem;
+	text-align: right;
+}
+.right-top span{
+	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
+	font-size: 24rem;
+	color: #4D555D;
+	line-height: 35rem;
+	bottom: 3rem;
+	position: relative;
+}
+.right-top-right{
+	margin-left:10rem;
+}
+.right-top-left{
+	margin-right:10rem;
+}
+.right div{
+	width: 260rem;
+	border: 1rem solid #979797;
+	right: 24rem;
+	position: relative;
+}
+.right-bottom{
+	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
+	font-size: 24rem;
+	color: #4D555D;
+	line-height: 33rem;
+	text-align: left;
+}
+.part1-2-1 .right-top{
+	margin-right: 128rem;
+}
+.part1-2-1 .right-bottom{
+	margin-right: 33rem;
+}
+.part1-2-2 .right-top{
+	margin-right: 116rem;
+}
+.part1-2-2 .right-bottom{
+	margin-right: 39rem;
+}
+.part1-2-3 .right-top{
+	margin-right: 128rem;
+}
+.part1-2-3 .right-bottom{
+	margin-right: 39rem;
+}
+.part1-2-4 .right-top{
+	margin-right: 138rem;
+}
+.part1-2-4 .right-bottom{
+	margin-right: 47rem;
+}
+.part1-2-5 .right-top{
+	margin-right: 26.3rem;
+}
+.part1-2-5 .right-bottom{
+	margin-right: 19rem;
+}
+.part1-2-6 .right-top{
+	margin-right: 100rem;
+}
+.part1-2-6 .right-bottom{
+	margin-right: 0;
+}
+.part1-2-6{
+	margin-bottom: 0!important;
+}
