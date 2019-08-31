@@ -73,6 +73,31 @@ img{
 	width: 10rem/* 750px */;
 	margin: 0 auto;
 }
+/*好学么*/
+.part0{
+	text-align: center;
+	padding: .66666667rem/* 50px */ .53333333rem/* 40px */.8rem/* 60px */ .53333333rem/* 40px */ ;
+}
+.part0-1{
+	margin: .72rem/* 54px */ 0 .41333333rem/* 31px */ 0;
+	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
+	font-size: .37333333rem/* 28px */;
+	color: #4D555D;
+	line-height: .69333333rem/* 52px */;
+	text-align: left;
+}
+.part0 img{
+	width: 8.01333333rem/* 601px */;
+	height: 4.16rem/* 312px */;
+}
+.part0-2{
+	margin: .45333333rem/* 34px */ 0 .69333333rem/* 52px */ 0;
+	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
+	font-size: .37333333rem/* 28px */;
+	color: #4D555D;
+	line-height: .64rem/* 48px */;
+	text-align: left;
+}
 /*PHP概况及就业前景*/
 .part1{
 	text-align: center;
@@ -89,9 +114,6 @@ img{
 	font-size: .37333333rem/* 28px */;
 	color: #4D555D;
 	line-height: .53333333rem/* 40px */;
-}
-.part1 .title{
-	margin-top: .66666667rem/* 50px */;
 }
 .part1-1>h2{
 	font-family: PingFangSC-Medium, Microsoft YaHei, Arial;
