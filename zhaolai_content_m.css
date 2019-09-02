@@ -34,6 +34,12 @@ img{
 .r{
 	float: right;
 }
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
 /*顶部*/
 .header{
 	background: #FFFFFF;
@@ -73,6 +79,103 @@ img{
 	width: 10rem/* 750px */;
 	margin: 0 auto;
 }
+/*学习内容*/
+.part0{
+	text-align: center;
+}
+.part0 .title{
+	margin: .66666667rem/* 50px */ 0 .49333333rem/* 37px */ 0;
+}
+.zd{
+	padding: 0 .54666667rem/* 41px */ .26666667rem/* 20px */ .52rem/* 39px */;
+}
+.zd-title{
+	background: #009999;
+	border-radius: .53333333rem/* 40px */ 0 .53333333rem/* 40px */ 0;
+	margin-bottom: .26666667rem/* 20px */;
+}
+.zd-title h3{
+	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
+	font-size: .37333333rem/* 28px */;
+	color: #FFFFFF;
+	line-height: .53333333rem/* 40px */;
+	float: left;
+}
+.zd-title h3:first-child{
+	background: #E3783D;
+	border-radius: .53333333rem/* 40px */ 0 .53333333rem/* 40px */ 0;
+	width: 2.13333333rem/* 160px */;
+	text-align: center;
+	padding: .26666667rem/* 20px */ 0;
+}
+.zd-title h3:nth-child(2){
+	padding: .26666667rem 0 .26666667rem .21333333rem;
+	width: 5.02666667rem/* 377px */;
+	text-align: left;
+}
+.zd-title a{
+	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
+	font-size: .37333333rem/* 28px */;
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	width: 1.25333333rem/* 94px */;
+	padding: .26666667rem/* 20px */ .30666667rem/* 23px */ .26666667rem/* 20px */0;
+	line-height: .53333333rem/* 40px */;
+}
+.zd-title a img{
+	width: .37333333rem/* 28px */;
+	height: .204rem/* 15.3px */;
+	float: left;
+	margin: .16rem/* 12px */ .13333333rem/* 10px */.16933333rem/* 12.7px */ 0;
+}
+.zd-content{
+	padding: 0 0 .26666667rem/* 20px */ .30666667rem/* 23px */;
+}
+.zd-mod{
+	padding-bottom: .28rem/* 21px */;
+}
+.zd-mod h3{
+	float: left;
+	width: 1.93333333rem/* 145px */;
+	text-align: center;
+	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
+	font-size: .37333333rem/* 28px */;
+	color: #30363E;
+	margin-top: .05333333rem/* 4px */;
+}
+.zd-mod-content{
+	float: left;
+	padding-left: .48rem/* 36px */;
+	width: 6.21333333rem/* 466px */;
+}
+.zd-mod-content p{
+	font-family: PingFangSC-Regular;
+	font-size: .37333333rem/* 28px */;
+	color: #4D555D;
+	line-height: .64rem/* 48px */;
+	text-align: left;
+}
+.zd-mid{
+	border: .01333333rem/* 1px */ dashed #009999;
+	height: 0;
+}
+.zd-energy {
+	margin-top: .28rem/* 21px */;
+}
+.zd-energy h3{
+	float: left;
+	width: 1.93333333rem/* 145px */;
+	text-align: center;
+	font-family: PingFangSC-Regular, Microsoft YaHei, Arial;
+	font-size: .37333333rem/* 28px */;
+	color: #30363E;
+	margin-top: .05333333rem/* 4px */;	
+}
+.zd-energy .zd-mod-content{
+	padding-left: .69333333rem/* 52px */
+	width: 6rem/* 450px */;
+}
 /*PHP概况及就业前景*/
 .part1{
 	text-align: center;
@@ -91,7 +194,7 @@ img{
 	line-height: .53333333rem/* 40px */;
 }
 .part1 .title{
-	margin-top: .66666667rem/* 50px */;
+	margin-top: .53333333rem/* 40px */;
 }
 .part1-1>h2{
 	font-family: PingFangSC-Medium, Microsoft YaHei, Arial;
