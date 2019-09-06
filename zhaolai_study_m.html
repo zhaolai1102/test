@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
     <link rel="stylesheet" type="text/css" href="./zhaolai_study_m.css">
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./zhaolai_study_m.js"></script>
 </head>
 <body>
 	<div class="header">
@@ -397,34 +399,6 @@
 			</div>			
 		</div>
 	</div>
-	<script>
-		var mySwiper = new Swiper('.swiper-container', {
-			autoplay: {
-				disableOnInteraction: false,
-			},
-			loop : true,   
-			pagination: {
-	    		el: '.swiper-pagination',
-	 		},
-		})
-	    var phoneWidth = parseInt(window.screen.width);
-		var phoneHeight = parseInt(window.screen.height);
-		var phoneScale = phoneWidth/750;//除以的值按手机的物理分辨率
-		var ua = navigator.userAgent;
-		if (/Android (\d+\.\d+)/.test(ua)) {
-		var version = parseFloat(RegExp.$1);
-		// andriod 2.3
-		if (version > 2.3) {
-		document.write('<meta name="viewport" content="width=device-width,initial-scale='+phoneScale+',minimum-scale='+phoneScale+',maximum-scale='+phoneScale+',user-scalable=no">');
-		// andriod 2.3以上
-		} else {
-		document.write('<meta name="viewport" content="width=device-width,user-scalable=no">');
-		}
-		// 其他系统
-		} else {
-		document.write('<meta name="viewport" content="width=device-width, initial-scale='+phoneScale+',minimum-scale='+phoneScale+',maximum-scale ='+phoneScale +',user-scalable=no,">');
-		}
-	</script>
 	<script>(function() {var _53code = document.createElement("script");_53code.src = "https://tb.53kf.com/code/code/10143228/2";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(_53code, s);})();</script>
 </body>
 </html>

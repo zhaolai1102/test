@@ -115,6 +115,9 @@ img{
 	color: #4D555D;
 	line-height: .53333333rem/* 40px */;
 }
+.part1 .title{
+	margin-top: .53333333rem/* 40px */;
+}
 .part1-1>h2{
 	font-family: PingFangSC-Medium, Microsoft YaHei, Arial;
 	font-size: .42666667rem/* 32px */;
@@ -292,7 +295,7 @@ D;
 }
 .btn a{
 	display: block;
-	border: .01333333rem/* 1px */ solid #009999;
+	border: 1px solid #009999;
 	border-radius: .48rem/* 36px */;
 	padding: .21333333rem/* 16px */ 0;
 	text-align: center;
@@ -515,6 +518,11 @@ D;
 	background: rgba(0,0,0,0.50);
 	position: relative;
 	bottom: .69333333rem/* 52px */;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:1;
+    -webkit-box-orient: vertical;
 }
 .part3-content{
 	padding:0 .53333333rem/* 40px */ 1.18666667rem/* 89px */ .53333333rem/* 40px */;
@@ -644,10 +652,10 @@ D;
 	margin: 0 auto;
 	margin-top: 1.13333333rem/* 85px */;
 }
-.lunbo{	
-	width: 4.26666667rem/* 320px */;
+.swiper-container{
+	width: 8.93333333rem!important/* 670px */;
 	height: 4.85333333rem/* 364px */;
-	background: #F4F4F4;
+	background: #F4F4F4;	
 }
 .lunbo img{	
 	width: 4.26666667rem/* 320px */;
@@ -660,6 +668,9 @@ D;
 	line-height: .56rem/* 42px */;
 	text-align: left;
 	color: #4D555D;
+}
+.mar3{
+	margin-left: .38666667rem/* 29px */;
 }
 .point{
 	position: relative;
@@ -716,7 +727,7 @@ D;
 }
 .part7{
 	text-align: center;
-	padding:.77333333rem/* 58px */.56rem/* 42px */ 0 .56rem/* 42px */;
+	padding:.77333333rem/* 58px */.56rem/* 42px */ 1.09333333rem/* 82px */ .56rem/* 42px */;
 }
 .part7 .title{
 	margin-bottom: .74666667rem/* 56px */;
